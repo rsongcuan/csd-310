@@ -48,4 +48,6 @@ for player in players:
 	print("Last Name:{}".format(player[2]))
 	print("Team ID: {}\n".format(player[3]))
 
+input("\n\n Press any key to continue...")
+
 db.close()
